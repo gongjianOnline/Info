@@ -1,12 +1,14 @@
 <!--  -->
 <template>
-  <div class="wrapper">
+  <div class="wrapper" ref="exportPdf">
     <header>
       <Header/>
       <Info/>
     </header>
     <nav><Edu/></nav>
     <nav><Skill/></nav>
+    <nav><Work/></nav>
+    <nav><Project/></nav>
 
   </div>
 </template>
@@ -15,7 +17,9 @@
 import Header from "../components/header.vue";
 import Info from "../components/Info";
 import Edu from "../components/edu";
-import Skill from "../components/skill"
+import Skill from "../components/skill";
+import Work from "../components/work";
+import Project from "../components/project"
 export default {
   data () {
     return {
@@ -26,14 +30,20 @@ export default {
     Header,
     Info,
     Edu,
-    Skill
+    Skill,
+    Work,
+    Project
   },
 
   computed:{},
 
   mounted(){},
 
-  methods:{}
+  methods:{
+    xxx(){
+      this.$PDFSave(this.$refs.exportPdf, "我的文件");
+    }
+  }
 }
 
 </script>
