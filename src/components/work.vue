@@ -10,7 +10,7 @@
           </svg>
           <span class="workDate">2017-07 - 至今</span>
         </div>
-        <div class="center">汇天科技有限公司</div>
+        <div class="center">北京某科技有限公司</div>
         <div class="right">前端工程师</div>
       </div>
       <!-- 工作内容 -->
