@@ -41,7 +41,22 @@
           <span class="infoValue">gjwebTop@163.com</span>
         </div>
       </div>
-
+      <div class="infoContainer interval">
+        <div>
+          <span class="dot"></span>
+          技术博客:
+          <span class="infoValue">
+            <a href="http://www.gjweb.top" target="_blank">点此进入</a>
+          </span>
+        </div>
+        <div>
+          <span class="dot"></span>
+          gitHub:
+          <span class="infoValue">
+            <a href="https://github.com/gongjianOnline" target="_blank">点此进入</a>
+          </span>
+        </div>
+      </div>
     </div>
     <div class="right">
       <img src="" alt="" class="imgLogo">

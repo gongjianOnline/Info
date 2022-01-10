@@ -5,9 +5,8 @@
       <Header/>
       <Info/>
     </header>
-    <nav>
-      <Edu/>
-    </nav>
+    <nav><Edu/></nav>
+    <nav><Skill/></nav>
 
   </div>
 </template>
@@ -15,7 +14,8 @@
 <script>
 import Header from "../components/header.vue";
 import Info from "../components/Info";
-import Edu from "../components/edu"
+import Edu from "../components/edu";
+import Skill from "../components/skill"
 export default {
   data () {
     return {
@@ -25,7 +25,8 @@ export default {
   components:{
     Header,
     Info,
-    Edu
+    Edu,
+    Skill
   },
 
   computed:{},
@@ -41,7 +42,6 @@ export default {
   width:794px;
   margin: 10px auto;
   background: #fff;
-  height: 100vh;
   padding-left: 34px;
   padding-right: 34px;
 }
